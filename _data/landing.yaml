@@ -1,0 +1,193 @@
+skills:
+  - founding
+  - strategy
+  - engineering
+  - design
+  - naming
+
+colors:
+  - red
+  - yellow
+  - green
+  - blue
+  - purple
+
+colormap:
+  founding: red
+  strategy: yellow
+  engineering: green
+  design: blue
+  naming: purple
+
+projects:
+  - name: Matter
+    lede: Cofounder, CPO
+    desc: >-
+        A new model of hospital care where 95% of patients are able to go home within 24 hours of admission, improving both efficiency and outcomes. Co-founded with a [prominent surgeon]().
+    role: [founding, strategy, engineering, design]
+    icon: matter-svg-icon.html
+    media:
+      - {type: image, file: matter-deck-1.png}
+      - {type: image, file: matter-deck-2.png}
+  - name: Svpply → eBay
+    nickname: Svpply
+    lede: Cofounder, CTO
+    desc: >-
+      Social shopping and bookmarking.
+      Used by millions, including fashion icons from GQ to AllSaints.
+      [Sold to eBay]() to fuel their push into discovery based shopping.
+    role: [founding, engineering, strategy]
+  - name: Onym
+    # template: onym.html
+    role: [founding, strategy]
+    icon: onym-icon.html
+    lede: Partner
+    desc: >-
+      A naming studio working closely founding teams to name and create zero-to-one brand strategy for companies and products now worth >$1B. Co-founded with [Willem Van Lancker]().
+    clients:
+      - image: {type: "svg", file: "picnic.svg", class: "w-3/4"}
+        link: https://picnicallergy.com
+      - image: {type: "svg", file: "assembly.svg", class: "w-full mt-3"}
+        link: https://assemblyosm.com
+      - image: {type: "svg", file: "ultraviolet.svg", class: "w-full mt-2"}
+        link: coming soon
+      - image: {type: "svg", file: "facet.svg", class: "w-3/4"}
+        link: https://facetcare.com
+      - image: {type: "svg", file: "cove.svg", class: "w-3/5 mt-1"}
+        link: https://www.withcove.com
+      - image: {type: "svg", file: "numeric.svg", class: "w-11/12"}
+        link: https://www.numeric.io
+      - image: {type: "svg", file: "imprint.svg", class: "w-4/5"}
+        link: https://www.imprint.co
+      - image: {type: "svg", file: "sequence.svg", class: "w-full mt-2"}
+        link: https://www.joinsequence.com
+      - image: {type: "svg", file: "hyperbloom.svg", class: "w-11/12"}
+        link: coming soon
+  - name: Boomerang
+    role: [founding, engineering]
+    lede: Cofounder, CEO
+    desc: >-
+      A disposable flying camera with $49 price point and intuitive interface: toss, hover, catch. Videos sync to your phone. The perfect vacation​/​party​/​concert companion.
+    media:
+      - {type: video, file: boomerang-commercial.mov}
+      - {type: video, file: boomerang-first-hover-on-toss.mp4}
+      - {type: video, file: boomerang-splitscreen.mp4}
+      - {type: video, file: boomerang-bluetooth-poc.mov}
+      - {type: image, file: boomerang-overhead.png}
+    size: large
+  - name: Covenant
+    lede: Board of Advisors
+    role: [strategy, design]
+    desc: >-
+      The future of legal tech, focused on streamlining negotiations. From [Jen Berrent](), former COO and CLO of WeWork, based on her framework developed on thousands of agreements and leases across 30 countries.
+  - name: WNYC
+    role: [strategy]
+    lede: Advisor, New Sounds
+    desc: >-
+      A new flagship brand and site for the much loved WNYC radio program.
+      In partnership with GM [Shannon Connolly](), fresh off a stint as SVP at MTV.
+  - name: Harvard Library Innovation Lab
+    nickname: Harvard LIL
+    role: [engineering]
+    lede: Contributing Engineer
+    desc: >-
+      Building tools for libraries including [H20](https://lil.law.harvard.edu/projects/h2o/), an open courseware platform; [Perma](https://lil.law.harvard.edu/projects/perma-cc/), a cross-institution initiative to combat link-rot; and [Mischief](https://github.com/harvard-lil/mischief), a tool for capturing self-contained web archives.
+    questions:
+      - How can you store?
+      - How can you X
+  - name: Electric Objects
+    role: [engineering]
+    lede: Infrastructure Engineer
+    desc: >-
+      An art display and Time Magazine invention of the year.
+      Hang it on your wall, pair it with your phone, and display
+      a range of art from across the internet.
+    media:
+      - {type: video, file: eo-art2.mp4}
+      - {type: image, file: eo-5.jpg}
+      # - {type: video, file: eo-art.mp4}
+      - {type: image, file: eo-2.jpg}
+    questions:
+      - How do you engineer resilient software for a hardware product that may sit in a box, for years, before being activated?
+      - How can you preserve the unboxing experience by postponing updates until after enjoying the initial product promise?
+      - How can you mantain state between hardware buttons and software representation?
+    research-links:
+      - https://www.kickstarter.com/projects/electricobjects/electric-objects-a-computer-made-for-art
+      - https://www.thisiscolossal.com/2014/07/electric-objects-a-dedicated-computer-for-the-display-of-art/
+      - https://smart-home-products.myshopify.com/products/smart-picture-frame-electric-objects-eo2-digital-art-display-23-inch
+      - https://vimeo.com/user30914749
+      - https://melhaasch.com
+  - name: Reading.am
+    lede: Operator
+    desc: >-
+      Beloved and long suffering social bookmarking. Now [open source]().
+  - name: Advising
+    lede: Analysis, Strategy, Hiring
+    role: [strategy]
+    desc: >-
+      [Thrive Capital](), [HEIR](), [Commons](), [Yams](), [Veo Robotics]()
+  # - name: MIT Media Lab
+  #   role: [strategy]
+  - name: Berkman Klein Center, Harvard
+    lede: Affiliate
+    role: [strategy]
+  - name: Innography
+    role: [design, engineering]
+    lede: Design and Product Lead
+    desc: >-
+      Intellectual property data analytics for the Fortune 500.
+    # desc: >-
+    #   Data analytics for intellectual property, sold into Fortune 500 companies to perform diligence, portfolio analysis, and litigation defense.
+  - name: EMI
+    role: [design]
+    lede: Designer
+    desc: >-
+      Something about work here.
+    media:
+      - {type: video, file: relientk-leno.mp4}
+      - {type: image, file: relientk-mmhmm.jpg}
+      - {type: image, file: relientk-ep.jpg}
+      - {type: image, file: wintering-tree.jpg}
+      - {type: image, file: floating-world.jpg}
+      - {type: image, file: sparrows.jpg}
+      - {type: image, file: paul-banks.jpg}
+  - name: Hatch Show Print
+    role: [design]
+  - name: TuneIn
+    role: [design]
+    lede: Creative Director
+    desc: >-
+      Streaming radio
+  - name: Passalong
+    role: [design]
+  - name: Pop Music
+    year: 2011
+    media:
+      - {type: video, file: pop-music.mp4}
+  - name: Eavesdropper
+    year: 2010
+    lede: Hyperlinked conversation.
+    role: [design, strategy]
+    media:
+      - {type: video, file: eavesdropper.mp4}
+    desc: >-
+      A user sets their device among the participants of a conversation and launches the Eavesdropper application. Eavesdropper begins listening for keywords and repeated phrases, using them to query for and present supplemental information to enhance and stimulate the conversation.
+  - name: HRMI
+    year: 2009
+    role: [design, strategy]
+    media:
+      - {type: video, file: hrmi.mp4}
+  - name: Big Valley
+    year: 2005
+    media:
+      - {type: video, file: big-valley.mp4}
+  # - name: Logos
+  #   media:
+  #     - {type: svg, file: covenant.svg}
+  #     - {type: svg, file: matter.svg}
+  #     - {type: svg, file: seminal-works.svg}
+  #     - {type: svg, file: lumo.svg}
+  #     - {type: svg, file: quiet.svg}
+  #     - {type: svg, file: buzzer.svg}
+  #     - {type: svg, file: subsystem.svg}
+  #     - {type: svg, file: artist-friendship.svg}

@@ -1,0 +1,10 @@
+{%- capture src -%}
+    /assets/{% if include.media.type == 'svg' %}image{% else %}{{ include.media.type }}{% endif %}s/work/{{ page.project.name | slugify }}/{{ include.media.file }}
+{%- endcapture -%}
+
+{% case include.media.type %}
+{% when 'image', 'svg' %}
+    <img src="{{ src }}" class="w-full">
+{% when 'video' %}
+    <video src="{{ src }}" class="w-full" autoplay loop muted allowfullscreen></video>
+{% endcase %}

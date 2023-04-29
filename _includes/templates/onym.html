@@ -1,0 +1,16 @@
+<div class="{{ include.class }}">
+    <h1 class="text-4xl">{{ include.project.name }}</h1>
+    <h2 class="text-gray-500">{{ include.project.lede }}</h2>
+    <p class="my-6">{{ include.project.desc }}</p>
+    <p class="py-3 my-3 uppercase border-b text-base">Clients</p>
+    <div class="grid grid-cols-3 gap-x-20 gap-y-12">
+        {% for client in include.project.clients %}
+            <a href="{{ client.link  }}" target="_blank">
+                {% assign src = client.image.file | prepend: "assets/images/work/onym/" %}
+                {% assign class = client.image.class | prepend: "fill-gray-800 hover:fill-black block m-auto " %}
+                {% include_relative {{ src }} class=class %}
+            </a>
+        {% endfor %}
+    </div>
+    <a href="https://onym.co" class="my-6">More →</a>
+</div>

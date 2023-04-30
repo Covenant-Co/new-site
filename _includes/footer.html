@@ -2,13 +2,13 @@
     <div class="max-w-4xl mx-auto">
         <div class="flex">
             <nav class="text-xs [&>*]:inline-block [&>*]:no-underline [&>*]:border-t [&>*]:pt-1 [&>*]:w-36 [&>*]:mr-6">
-                <a href="/#about">
+                <a href="{{ "/#about" | relative_url }}">
                     About Us <span class="float-right">↑</span>
                 </a>
-                <a href="/#services">
+                <a href="{{ "/#services" | relative_url }}">
                     Services <span class="float-right">↑</span>
                 </a>
-                <a href="/#team">
+                <a href="{{ "/#team" | relative_url }}">
                     The Team <span class="float-right">↑</span>
                 </a>
             </nav>
@@ -32,7 +32,7 @@
             </h1>
             <div class="ml-auto text-covenantBlue-500 text-xs uppercase">
                 © Covenant Law, PLLC. Attorney Advertising |
-                <a href="/legal-notices.html" class="no-underline">legal notices</a>
+                <a href="{{ "/legal-notices.html" | relative_url }}" class="no-underline">legal notices</a>
             </div>
         </div>
 </footer>

@@ -13,7 +13,7 @@ title: "Covenant"
             <h1 class="text-3xl font-lora">
                 Covenant
             </h1>
-            <a href="#" class="no-underline bg-covenantBlue-500 py-1 px-4 rounded-full ml-auto">
+            <a href="mailto:contact@covenant.co" class="no-underline bg-covenantBlue-500 py-1 px-4 rounded-full ml-auto">
                 Contact
             </a>
         </div>
@@ -24,9 +24,15 @@ title: "Covenant"
         </div>
         <nav
             class="text-xs mt-20 mb-10 [&>*]:inline-block [&>*]:no-underline [&>*]:border-t [&>*]:pt-1 [&>*]:w-36 [&>*]:mr-6">
-            <a href="#">About Us ↓</a>
-            <a href="#">Services ↓</a>
-            <a href="#">The Team ↓</a>
+            <a href="#about">
+                About Us <span class="float-right">↓</span>
+            </a>
+            <a href="#services">
+                Services <span class="float-right">↓</span>
+            </a>
+            <a href="#team">
+                The Team <span class="float-right">↓</span>
+            </a>
         </nav>
     </div>
     <div class="mr-2 absolute bottom right">
@@ -36,12 +42,14 @@ title: "Covenant"
     </div>
 </header>
 
-<section
-    class="bg-covenantBlue-200 px-10 py-20 font-lora text-2xl bg-[url('/assets/images/oculus.jpg')] bg-blend-luminosity bg-cover bg-right">
-    <div class="max-w-4xl mx-auto bg-gradient-to-r from-covenantBlue-200 to-transparent">
-        <div class="w-1/2">
-            Covenant is a specialized law practice focusing on private markets.
-            We are reshaping the law firm for the <span class="text-covenantBlue-500">AI era</span>.
+<section id="about"
+    class="bg-covenantBlue-200 font-lora text-2xl bg-[url('/assets/images/oculus.jpg')] bg-blend-luminosity bg-cover bg-right">
+    <div class="px-10 py-20 bg-gradient-to-r from-covenantBlue-200 via-covenantBlue-200 to-transparent">
+        <div class="max-w-4xl mx-auto">
+            <div class="w-1/2">
+                Covenant is a specialized law practice focusing on private markets.
+                We are reshaping the law firm for the <span class="text-covenantBlue-500">AI era</span>.
+            </div>
         </div>
     </div>
 </section>
@@ -49,35 +57,43 @@ title: "Covenant"
 <section class="bg-covenantBlue-500 p-5 text-center text-white">
     <h2 class="font-lora text-2xl">Contact us for a free LPA review</h2>
     <div class="text-sm">We review, analyze and negotiate limited partnership agreements and side letters.</div>
-    <a href="#" class="inline-block text-covenantBlue-500 no-underline bg-white py-1 px-4 rounded-full ml-auto mt-4">
+    <a href="mailto:contact@covenant.co" class="inline-block text-covenantBlue-500 no-underline bg-white py-1 px-4 rounded-full ml-auto mt-4">
         Contact
     </a>
 </section>
 
-<section class="max-w-4xl mx-auto p-10 grid grid-cols-2">
-    <div class="p-10">
-        <img src="/assets/images/chart.svg">
-        <h3 class="font-lora text-2xl text-covenantBlue-500">Better Information</h3>
-        We deliver a perfect audit every time
+<section class="max-w-4xl mx-auto p-10 grid grid-cols-2 [&>*]:p-10 [&>*]:flex [&>*]:items-start [&>*]:gap-4">
+    <div>
+        <img src="/assets/images/chart.svg" class="w-8">
+        <div>
+            <h3 class="font-lora text-2xl text-covenantBlue-500">Better Information</h3>
+            We deliver a perfect audit every time
+        </div>
     </div>
-    <div class="p-10">
-        <img src="/assets/images/money.svg">
-        <h3 class="font-lora text-2xl text-covenantBlue-500">No Billable Hours</h3>
-        We offer flat, predictable and cost-effective pricing
+    <div>
+        <img src="/assets/images/money.svg" class="w-8">
+        <div>
+            <h3 class="font-lora text-2xl text-covenantBlue-500">No Billable Hours</h3>
+            We offer flat, predictable and cost-effective pricing
+        </div>
     </div>
-    <div class="p-10">
-        <img src="/assets/images/chat.svg">
-        <h3 class="font-lora text-2xl text-covenantBlue-500">Better Decisions</h3>
-        We empower our clients to make Informed decisions with better-negotiated terms
+    <div>
+        <img src="/assets/images/chat.svg" class="w-8">
+        <div>
+            <h3 class="font-lora text-2xl text-covenantBlue-500">Better Decisions</h3>
+            We empower our clients to make Informed decisions with better-negotiated terms
+        </div>
     </div>
-    <div class="p-10">
-        <img src="/assets/images/time.svg">
-        <h3 class="font-lora text-2xl text-covenantBlue-500">80% Time Savings</h3>
-        We dramatically reduce time spent reviewing and analyzing legal documents
+    <div>
+        <img src="/assets/images/time.svg" class="w-8">
+        <div>
+            <h3 class="font-lora text-2xl text-covenantBlue-500">80% Time Savings</h3>
+            We dramatically reduce time spent reviewing and analyzing legal documents
+        </div>
     </div>
 </section>
 
-<section class="max-w-4xl mx-auto p-10 bg-covenantBlue-200 rounded-xl">
+<section id="services" class="max-w-4xl mx-auto p-10 bg-covenantBlue-200 rounded-xl">
     <div class="font-lora text-3xl py-8 w-3/4">
         Covenant combines AI and purpose-built technology with legal expertise
         to reimagine the client experience.
@@ -99,7 +115,7 @@ title: "Covenant"
         </div>
 </section>
 
-<section class="max-w-4xl mx-auto text-center py-20">
+<section id="team" class="max-w-4xl mx-auto text-center py-20">
     <h1 class="font-lora text-covenantBlue-500 text-4xl">“We love law, but the law firm is broken.”</h1>
     Our team is uniquely positioned through decades of experience in business and law
 </section>
@@ -192,16 +208,22 @@ title: "Covenant"
     <div class="max-w-4xl mx-auto">
         <div class="flex">
             <nav class="text-xs [&>*]:inline-block [&>*]:no-underline [&>*]:border-t [&>*]:pt-1 [&>*]:w-36 [&>*]:mr-6">
-                <a href="#">About Us ↑</a>
-                <a href="#">Services ↑</a>
-                <a href="#">The Team ↑</a>
+                <a href="#about">
+                    About Us <span class="float-right">↑</span>
+                </a>
+                <a href="#services">
+                    Services <span class="float-right">↑</span>
+                </a>
+                <a href="#team">
+                    The Team <span class="float-right">↑</span>
+                </a>
             </nav>
             <div class="basis-1/4 ml-auto text-right">
                 <address class="not-italic">
                     1460 Broadway<br>
                     New York, NY 10036
                 </address>
-                <a href="#" class="my-5 block">Contact@covenant.co</a>
+                <a href="mailto:contact@covenant.co" class="my-5 block">Contact@covenant.co</a>
                 +1-917-225-3734
             </div>
         </div>
